@@ -1,38 +1,74 @@
 .App {
+  /* display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; */
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+h1 {
+  margin: 0;
+}
+.header {
+  background-color: #282c34;
+  height: 150px;
+  padding: 10px;
+  color: white;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+.btn {
+  background-color: rgb(93, 90, 142);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  margin: 5px;
+}
+.heading {
+  color: white;
+  font-size: 80px;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.compa {
+  background-color: aqua;
+  padding: 5px;
+  margin: 8px;
 }
+.compb {
+  background-color: red;
+  padding: 5px;
+  margin: 8px;
+}
+.compc {
+  background-color: pink;
+  padding: 5px;
+  margin: 8px;
+}
+/* .movie{
+    background-color: rgb(179, 168, 168);
+    color : rgb(255, 255, 255);
+    border : 1px solid gray;
+    padding : 3px;
+    font-weight: bold;
+    text-align : start;
+    width : 22%;
+    margin-top : 18px;
+}
+.movie img{
+    max-width: 100%;
+    height : 220px;
+    width : 100%;
+} */
